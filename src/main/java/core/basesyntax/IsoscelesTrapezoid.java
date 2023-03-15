@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import core.basesyntax.Figure;
-
 public class IsoscelesTrapezoid extends Figure {
     private int bottomBase;
     private int topBase;
