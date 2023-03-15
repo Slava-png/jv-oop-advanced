@@ -1,6 +1,4 @@
-package core.basesyntax.service;
-
-import core.basesyntax.model.Figure;
+package core.basesyntax;
 
 public interface FigureSupplier {
     Figure getRandomFigure();

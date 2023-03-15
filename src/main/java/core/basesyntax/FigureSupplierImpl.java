@@ -1,17 +1,14 @@
-package core.basesyntax.service;
-
-import core.basesyntax.model.*;
+package core.basesyntax;
 
 import java.util.Random;
 
 public class FigureSupplierImpl implements FigureSupplier {
     private static final int DEFAULT_RADIUS = 10;
     private static final int MAX_RANDOM = 10;
-    private Random random;
+    private Random random = new Random();
     private ColorSupplier colorSupplier;
 
-    public FigureSupplierImpl(Random random, ColorSupplier colorSupplier) {
-        this.random = random;
+    public FigureSupplierImpl(ColorSupplier colorSupplier) {
         this.colorSupplier = colorSupplier;
     }
 

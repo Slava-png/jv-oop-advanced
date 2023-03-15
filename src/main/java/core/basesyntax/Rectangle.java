@@ -1,4 +1,4 @@
-package core.basesyntax.model;
+package core.basesyntax;
 
 public class Rectangle extends Figure {
     private int height;

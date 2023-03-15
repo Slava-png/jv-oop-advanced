@@ -1,15 +1,9 @@
-package core.basesyntax.service;
-
-import core.basesyntax.model.Colors;
+package core.basesyntax;
 
 import java.util.Random;
 
 public class ColorSupplierImpl implements ColorSupplier {
-    private Random random;
-
-    public ColorSupplierImpl(Random random) {
-        this.random = random;
-    }
+    private Random random = new Random();
 
     @Override
     public String getRandomColor() {
